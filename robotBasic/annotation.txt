@@ -1,0 +1,55 @@
+* Instalação python-> Lembrar de marcar ADD TO PATH
+
+* Robot Instalação:
+    pip install robotframework
+    pip install --upgrade robotframework=x.x.x OU
+    pip install --upgrade robotframework (LATEST)
+
+* Robot-Selenium Instalação:
+    pip install --upgrade robotframework-seleniumlibrary
+
+* Robot-Requests Instalação:
+    pip install robotframework-requests
+
+* Web Drivers:
+    Mozilla(geckodriver) -> https://github.com/mozilla/geckodriver/releases
+    Chrome(chromedriver) -> https://chromedriver.chromium.org/downloads
+
+* Python Libraries/Packages (External)
+    https://pypi.org/
+
+* commands
+    pip freeze -> Listar todos as libraries do python
+
+* Upgrade no pip (caso tenha python instalado)
+    python.exe -m pip install --upgrade pip
+
+______________________________________________________________
+
+* Setup e Teardown
+    - Setup: Roda alguma instrução no incio da suite / teste
+        [Test Setup]
+        [Suite Setup]
+    - Teardown: Roda alguma instrução no final da suite / teste
+        [Test Teardown]
+        [Suite Teardown]
+    
+* Opções de execução [robot --help]
+    - robot -i <tag> <arquivoDeTeste>
+        robot -i menus amazon_testes.robot
+        -i : informa que sera passado uma tag
+        <tag>: Nome da tag
+        <arquivoDeTeste>: arquivo de teste que esta o teste com a tag
+    - robot -e <tag> <arquivoDeTeste>
+        robot -e menus amazon_testes.robot
+        -e : exclude, não rodara a tag informada, os demais sim
+        <tag>: Nome da tag
+        <arquivoDeTeste>: arquivo de teste que esta o teste com a tag
+    - robot -d <pastaDeSalvamento> <arquivoDeTeste>
+        robot -d ./resultados amazon_testes.robot
+        -d : para informar destino de salvamento dos logs/report
+    - robot -v <variavel>:<novoValor> <arquivoDeTeste>
+        robot -v BROWSER:firefox amazon_testes.robot OU
+        robot -v BROWSER:firefox -d ./resultados amazon_testes.robot
+        -v: informa ao robot que será substituido o valor de uma variavel global
+
