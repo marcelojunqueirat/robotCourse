@@ -53,3 +53,18 @@ ______________________________________________________________
         robot -v BROWSER:firefox -d ./resultados amazon_testes.robot
         -v: informa ao robot que será substituido o valor de uma variavel global
 
+______________________________________________________________
+
+Teste de API's
+
+* Biblioteca Requests (responsavel por disparar as requisições)
+    pip install robotframework-requests
+
+* Biblioteca Collections (nativa do robot), responsavel pelas asserções de API
+
+* Fake API
+    Documentação: https://fakerestapi.azurewebsites.net/index.html
+    baseURL: https://fakerestapi.azurewebsites.net/api/v1
+
+
+

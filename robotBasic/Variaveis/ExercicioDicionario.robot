@@ -16,7 +16,6 @@ Documentation    Exercicio Dicionario com todos os meses do ano
 ...        onze=novembro       onzeDias=30
 ...        doze=dezembro       dozeDias=31
 
-
 *** Test Cases ***
 Imprimindo os meses no console
     Meses do Ano
