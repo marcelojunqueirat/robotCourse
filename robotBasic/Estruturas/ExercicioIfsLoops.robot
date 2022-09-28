@@ -1,5 +1,6 @@
 *** Settings ***
 Documentation    Exercicio de If's e Loop's 
+Library    SeleniumLibrary
 
 *** Variables ***
 

@@ -3,6 +3,7 @@ Documentation   Suíte para exemplificar o uso de IF nos testes
 ...             O IF deve ser pouco utilizado, mas tem hora que não tem jeito
 ...             e precisamos dele mesmo, então vamos ver como é!
 ...             IF: use com moderação!
+Library    SeleniumLibrary
 
 *** Variable ***
 @{FRUTAS}   maça  banana  uva  abacaxi
