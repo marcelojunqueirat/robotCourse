@@ -1,3 +1,5 @@
 * Repositorio projeto robotframework (release notes)
     - https://github.com/robotframework/robotframework
 
+* Rodar em headless
+    # linha de comando:  -v BROWSER:headlesschrome
