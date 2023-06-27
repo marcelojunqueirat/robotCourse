@@ -1,0 +1,14 @@
+- Install the extensions: Python, Robot Framework Language Server and Robocorp
+
+- Create new template Robocorp : Ctrl + Shift+ P -> Robocorp: Create Robot -> Extended Robot Framework template(Robot Framework Consumer Extended) -> Use Workspace folder
+
+OU 
+
+/*
+curl -o rcc.exe https://downloads.robocorp.com/rcc/releases/latest/windows64/rcc.exe
+  rcc create example
+  cd example
+  rcc run
+*/
+
+- Aguardar conda.yaml baixar as dependencias.
