@@ -20,6 +20,7 @@
 
 * commands
     pip freeze -> Listar todos as libraries do python
+    pip list -> Lista otimizada
 
 * Upgrade no pip (caso tenha python instalado)
     python.exe -m pip install --upgrade pip
