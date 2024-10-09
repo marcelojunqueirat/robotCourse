@@ -1,0 +1,46 @@
+Appium
+
+appium.io = Documentação básica do appium
+npm - appium = Ele é gerenciado pelo node JS
+
+
+# Criar projeto appium escopo projeto (fora do escopo global)
+- criar pasta projeto
+- npm init (preencher infos relevantes)
+- npm i appium (instalação app, caso queria escolher versão: npm i appium@2.0.1)
+- npx appium (colocar o servidor do appium no ar)
+
+obs: appium que faz as requisições da automação para o dispositivo android
+
+
+## appium doctor = verifica se o seu computador está apto para rodar appium para android/ios
+- npm i appium-doctor
+- npx appium-doctor --android (para rodar analise para android)
+
+
+## appium inspector (https://github.com/appium/appium-inspector)
+é um inspecionador para cada tela mobile (de forma bruta, estilo o inspecionador do browser)
+tem diferenças é que é feito por capabilities e xml.
+- é um .exe / .AppImage
+
+## adb devices -> Lista todos os dispositivos em execução no pc
+
+
+## npx appium driver install uiautomator2 -> Instala o driver uiautomator2
+
+## exemplo de json no appium inspector com capabilities
+{
+  "platformName": "Android",
+  "appium:deviceName": "Android Emulator",
+  "appium:automationName": "UIAutomator2",
+  "appium:app": "/home/marcelo.teixeira@softplan.com.br/Documentos/projects/marcelo/robotCourse/appium-qax/app/qax-alpha/qax-alpha.apk"
+}
+
+
+#### Passos resumidos para execução ####
+
+1 - Executar AVD, samartphone deve estar incialiazado (adb devices)
+2 - servidor appium startado (npx appium)
+3 - Executar Appium Inspector previamente configurado -> Start Session
+
+
