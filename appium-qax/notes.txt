@@ -27,7 +27,7 @@ tem diferenças é que é feito por capabilities e xml.
 
 
 ## npx appium driver install uiautomator2 -> Instala o driver uiautomator2
-	npx appium driver uniinstall uiautomator2 -> Desinstala o driver uiautomator2
+	 npx appium driver uninstall uiautomator2 -> Desinstala o driver uiautomator2
 
 ## exemplo de json no appium inspector com capabilities
 {
@@ -49,14 +49,3 @@ onde autoGrantPermissions=true da permissao total ao app (allow nas permissões 
 1 - Executar AVD, samartphone deve estar incialiazado (adb devices)
 2 - servidor appium startado (npx appium)
 3 - Executar Appium Inspector previamente configurado -> Start Session (./Appium-Inspector...)
-
-
-{
-  "platformName": "Android",
-  "deviceName": "Android Emulator",
-  "automationName": "UIAutomator2",
-  "app": "~/Documentos/projects/marcelo/robotCourse/appium-qax/app/yodapp-beta/yodapp-beta.apk",
-  "udid": "emulator-5554"
-}
-
-onde 
