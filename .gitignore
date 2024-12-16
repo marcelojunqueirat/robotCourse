@@ -2,3 +2,4 @@ robotBasic/WebTesting/resultados
 robotBasic/API/resultados
 node_modules
 .env
+__pycache__

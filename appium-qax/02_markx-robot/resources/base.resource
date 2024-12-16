@@ -2,8 +2,10 @@
 Documentation    Tudo deve começar nesse arquivo
 
 Library    AppiumLibrary
+Library    ${CURDIR}/libs/mongo.py
 
-Resource    ${CURDIR}/screens/login.resource
+Resource   ${CURDIR}/screens/login.resource
+Resource   ${CURDIR}/screens/tasks.resource
 
 *** Keywords ***
 
